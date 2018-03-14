@@ -195,13 +195,13 @@ $ GOPROXY=https://gomods.io vgo build
 
 ## Proxy Server 
 
-- Keeps copies of modules for faster delivery
-- Set with environment variable
-  + GOPROXY=https://1.5.12.10/proxy vgo build
-  + export GOPROXY=https://1.5.12.10/proxy
-- Support for whitelists and/or blacklist 
-- Fixed set of "official" proxies
-- But you can run your own!
+- Keeps copies of modules for faster delivery |
+- Set with environment variable |
+  + GOPROXY=https://1.5.12.10/proxy vgo build |
+  + export GOPROXY=https://1.5.12.10/proxy |
+- Support for whitelists and/or blacklist |
+- Fixed set of "official" proxies |
+- But you can run your own! |
 
 ---
 
