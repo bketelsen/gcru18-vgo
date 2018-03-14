@@ -46,7 +46,7 @@ Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 - The Import Compatibility Rule |
 - Minimal Version Selection |
 - Semantic Import Versioning |
-- Slideshow Background Image |
+- Graceful API Updates |
 - Slide-specific Background Images |
 - Custom Logo, TOC, and Footnotes |
 
@@ -71,6 +71,24 @@ Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 ---?image=assets/image/impver.png&size=auto 60%&color=white
 
 
+---
+## Graceful API Updates
+
+```
+package p // v1
+
+import v2 "p/v2"
+
+func EnableFoo() {
+	//go:fix
+	v2.SetFoo(true)
+}
+
+func DisableFoo() {
+	//go:fix
+	v2.SetFoo(false)
+}
+```
 ---
 
 @title[JavaScript Block]
