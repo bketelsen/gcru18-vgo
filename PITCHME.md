@@ -197,12 +197,12 @@ $ GOPROXY=https://gomods.io vgo build
 
 - Keeps copies of modules for faster delivery
 - Set with environment variable
-  + GOPROXY=https://101.50.12.10/proxy vgo build
-  + export GOPROXY=https://101.50.12.10/proxy
-- Support for whitelists and/or blacklist of packages
-  + Run inside your company firewall, allow only $COMPANY packages
-  + Enforce policies preventing use of packages not approved by $ARCHITECT
-- Plans for a fixed set of geographically dispersed "official" proxies
+  + GOPROXY=https://1.5.12.10/proxy vgo build
+  + export GOPROXY=https://1.5.12.10/proxy
+- Support for whitelists and/or blacklist 
+  + Allow only $COMPANY packages
+  + Prevent packages not approved by $ARCHITECT
+- Fixed set of geographically dispersed "official" proxies
 - But you can run your own!
 
 ---
