@@ -1,6 +1,6 @@
-# Black
+# Repeatable Builds with vgo
 
-### A GitPitch Presentation Template
+### Where We're Going, We Don't Need $GOPATH
 
 ---
 
