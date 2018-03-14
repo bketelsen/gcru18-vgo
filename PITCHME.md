@@ -50,7 +50,7 @@ Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 - Reproducible Builds |
 - Verifiable Builds |
 - Verified Builds |
-- Custom Logo, TOC, and Footnotes |
+
 
 ---
 
@@ -96,6 +96,10 @@ func DisableFoo() {
 	v2.SetFoo(false)
 }
 ```
+
+@[1,2](v1 package imports v2, allows you to set compatibility defaults.)
+@[4-7](Future "go fix" commands will inline the changes.)
+
 ---
 
 ## Reproducible Builds
@@ -114,6 +118,8 @@ require (
 	"github.com/gorilla/mux" v1.6.0
 )
 ```
+@[1](Module Declaration)
+@[3-6](Dependencies, with version specified)
 
 ---
 
@@ -132,6 +138,11 @@ captainhook go1.10
 	mod   github.com/bketelsen/captainhook  (devel)
 	dep   github.com/gorilla/mux            v1.6.0
 ```
+@[1](rsc.io/goversion)
+@[2](Binary name and Go version used to build it)
+@[3](Import Path)
+@[4](Module Declaration)
+@[5](Dependencies With Version)
 
 ---
 
