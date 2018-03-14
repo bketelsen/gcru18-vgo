@@ -20,20 +20,27 @@
 
 <br>
 
-@fa[bookmark gp-tip](vgo)
+@fa[star gp-tip](vgo)
 
 [https://research.swtch.com/vgo](https://research.swtch.com/vgo)
 
 ---
 
-## Template Features
+## vgo Assumptions
 
-- Code Presenting |
+- The Import Compatibility Rule |
 - Repo Source, Static Blocks, GIST |
 - Custom CSS Styling |
 - Slideshow Background Image |
 - Slide-specific Background Images |
 - Custom Logo, TOC, and Footnotes |
+
+---
+
+## The Import Compatibility Rule 
+
+> If an old package and a new package have the same import path, the new package must be backwards-compatible with the old package.
+
 
 ---?code=sample/go/server.go&lang=golang&title=Golang File
 
