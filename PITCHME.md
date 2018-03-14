@@ -208,6 +208,7 @@ $ GOPROXY=https://gomods.io vgo build
 ---
 
 
+
 ## Template Help
 
 - [Code Presenting](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting)
@@ -243,16 +244,14 @@ $ GOPROXY=https://gomods.io vgo build
 
 <br>
 
-@fa[twitter gp-contact](@gitpitch)
+@fa[twitter gp-contact](@bketelsen)
 
-@fa[github gp-contact](gitpitch)
+@fa[github gp-contact](bketelsen)
 
-@fa[medium gp-contact](@gitpitch)
+
 
 ---?image=assets/image/gitpitch-audience.jpg&opacity=100
 
-@title[Download this Template!]
+@title[Thank You!]
 
-### Get your presentation started!
-### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/black)
 
