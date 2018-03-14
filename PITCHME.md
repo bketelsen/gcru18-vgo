@@ -83,7 +83,7 @@ Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 
 <p><span class="slide-title">Graceful API Updates</span></p>
 
-```
+```go
 package p // v1
 import v2 "p/v2"
 
@@ -106,7 +106,7 @@ func DisableFoo() {
 
 ## Reproducible Builds
 
-```
+```text
 module "github.com/bketelsen/captainhook"
 
 require (
@@ -125,7 +125,7 @@ require (
 
 ## Verifiable Builds
 
-```
+```text
 goversion -m captainhook 
 captainhook go1.10
 	path  github.com/bketelsen/captainhook
@@ -143,7 +143,7 @@ captainhook go1.10
 
 ## Verified Builds
 
-```
+```text
 github.com/gorilla/mux v1.6.0 h1:UykbtMB/w5No2LmE16gINgLj+r/vbziTgaoERQv6U+0=
 ```
 
@@ -152,16 +152,16 @@ github.com/gorilla/mux v1.6.0 h1:UykbtMB/w5No2LmE16gINgLj+r/vbziTgaoERQv6U+0=
 ## Verified Builds
 
 ```bash
-vgo verify
-> all modules verified
+$ vgo verify
+all modules verified
 ```
 
 ---
 ## Verified Builds
 
 ```bash
-vgo verify
-> github.com/gorilla/mux v1.6.0: dir has been modified (/home/bketelsen/src/v/github.com/gorilla/mux@v1.6.0)
+$ vgo verify
+github.com/gorilla/mux v1.6.0: dir has been modified (...)
 ```
 
 ---
