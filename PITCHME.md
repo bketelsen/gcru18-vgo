@@ -119,7 +119,7 @@ require (
 
 ## Verifiable Builds
 
-@fa[clipboard-list] Dependencies specified in go.mod
+@fa[clipboard-list] Inspect dependencies in compiled binary
 
 ---
 
@@ -148,6 +148,24 @@ github.com/gorilla/mux v1.6.0 h1:UykbtMB/w5No2LmE16gINgLj+r/vbziTgaoERQv6U+0=
 ```
 
 ---
+
+## Verified Builds
+
+```bash
+vgo verify
+> all modules verified
+```
+
+---
+## Verified Builds
+
+```bash
+vgo verify
+> github.com/gorilla/mux v1.6.0: dir has been modified (/home/bketelsen/src/v/github.com/gorilla/mux@v1.6.0)
+```
+
+---
+
 
 @title[JavaScript Block]
 
