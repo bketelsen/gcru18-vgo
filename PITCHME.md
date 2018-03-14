@@ -200,9 +200,7 @@ $ GOPROXY=https://gomods.io vgo build
   + GOPROXY=https://1.5.12.10/proxy vgo build
   + export GOPROXY=https://1.5.12.10/proxy
 - Support for whitelists and/or blacklist 
-  + Allow only $COMPANY packages
-  + Prevent packages not approved by $ARCHITECT
-- Fixed set of geographically dispersed "official" proxies
+- Fixed set of "official" proxies
 - But you can run your own!
 
 ---
