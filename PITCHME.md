@@ -79,6 +79,8 @@ Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 
 @title[Graceful API Updates]
 
+<p><span class="slide-title">Graceful API Updates</span></p>
+
 ```
 package p // v1
 import v2 "p/v2"
