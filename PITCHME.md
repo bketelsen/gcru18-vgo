@@ -41,13 +41,15 @@ Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 
 ---
 
-## vgo Assumptions
+## vgo
 
 - The Import Compatibility Rule |
 - Minimal Version Selection |
 - Semantic Import Versioning |
 - Graceful API Updates |
-- Slide-specific Background Images |
+- Reproducible Builds |
+- Verifiable Builds |
+- Verified Builds |
 - Custom Logo, TOC, and Footnotes |
 
 ---
@@ -95,6 +97,53 @@ func DisableFoo() {
 }
 ```
 ---
+
+## Reproducible Builds
+
+@fa[clipboard-list] Dependencies specified in go.mod
+
+---
+
+## Reproducible Builds
+
+```
+module "github.com/bketelsen/captainhook"
+
+require (
+	"github.com/gorilla/context" v0.0.0-20160226214623-1ea25387ff6f
+	"github.com/gorilla/mux" v1.6.0
+)
+```
+
+## Verifiable Builds
+
+@fa[clipboard-list] Dependencies specified in go.mod
+
+---
+
+## Verifiable Builds
+
+```
+goversion -m captainhook 
+captainhook go1.10
+	path  github.com/bketelsen/captainhook
+	mod   github.com/bketelsen/captainhook  (devel)
+	dep   github.com/gorilla/mux            v1.6.0
+```
+
+## Verified Builds
+
+@fa[clipboard-list] Version hashes listed in go.modverify
+
+---
+
+## Verified Builds
+
+```
+github.com/gorilla/mux v1.6.0 h1:UykbtMB/w5No2LmE16gINgLj+r/vbziTgaoERQv6U+0=
+```
+
+
 
 @title[JavaScript Block]
 
