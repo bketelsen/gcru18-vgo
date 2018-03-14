@@ -115,6 +115,8 @@ require (
 )
 ```
 
+---
+
 ## Verifiable Builds
 
 @fa[clipboard-list] Dependencies specified in go.mod
