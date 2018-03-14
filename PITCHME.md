@@ -5,12 +5,12 @@
 
 ## History of Building Go
 
-- 2009 `6g` + `6l` - Makefiles |
-- 2010 `goinstall` |
-- 2011 `go` command |
-- Slideshow Background Image |
-- Slide-specific Background Images |
-- Custom Logo, TOC, and Footnotes |
+- 2009 6g, 6l - Makefiles |
+- 2010 goinstall |
+- 2011 go command |
+- 2014 gopkg.in |
+- 2014 semver proposal |
+- 2013-2018 godep,glide,gb,others |
 
 ---
 
