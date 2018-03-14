@@ -133,6 +133,8 @@ captainhook go1.10
 	dep   github.com/gorilla/mux            v1.6.0
 ```
 
+---
+
 ## Verified Builds
 
 @fa[clipboard-list] Version hashes listed in go.modverify
@@ -145,7 +147,7 @@ captainhook go1.10
 github.com/gorilla/mux v1.6.0 h1:UykbtMB/w5No2LmE16gINgLj+r/vbziTgaoERQv6U+0=
 ```
 
-
+---
 
 @title[JavaScript Block]
 
