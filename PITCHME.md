@@ -1,10 +1,21 @@
 # Repeatable Builds with vgo
 
-### Where We're Going, We Don't Need $GOPATH
 
 ---
 
-## Tips!
+## History of Building Go
+
+- 2009 `6g` + `6l` - Makefiles |
+- 2010 `goinstall` |
+- 2011 `go` command |
+- Slideshow Background Image |
+- Slide-specific Background Images |
+- Custom Logo, TOC, and Footnotes |
+
+---
+
+
+## History
 
 <br>
 
