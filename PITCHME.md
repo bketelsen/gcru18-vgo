@@ -202,7 +202,8 @@ $ GOPROXY=https://gomods.io vgo build
 - Support for whitelists and/or blacklist of packages
   + Run inside your company firewall, allow only $COMPANY packages
   + Enforce policies preventing use of packages not approved by $ARCHITECT
-
+- Plans for a fixed set of geographically dispersed "official" proxies
+- But you can run your own!
 
 ---
 
