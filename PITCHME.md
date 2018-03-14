@@ -68,7 +68,7 @@ Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 
 
 
----?image=assets/image/impver.png&size=auto 80&color=white
+---?image=assets/image/impver.png&size=auto 60&color=white
 
 
 ---
