@@ -22,8 +22,8 @@
 
 @fa[star gp-tip](vgo)
 
-[https://research.swtch.com/vgo](https://research.swtch.com/vgo)
-
+Documentation [https://research.swtch.com/vgo](https://research.swtch.com/vgo)
+Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 ---
 
 ## vgo
