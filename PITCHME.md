@@ -61,7 +61,8 @@ Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 ## Minimal Version Selection
 
 > Minimal version selection allows modules to specify only minimum requirements for their dependency modules.
----
+
+---?color=white
 
 ## Semantic Import Versioning
 
