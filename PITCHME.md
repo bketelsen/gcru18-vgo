@@ -10,18 +10,19 @@
 - 2011 go command |
 - 2014 gopkg.in |
 - 2014 semver proposal |
+- 2015 go 1.5 vendor experiment |
 - 2013-2018 godep,glide,gb,others |
 
 ---
 
 
-## History
+## 2018
 
 <br>
 
-@fa[arrows gp-tip](Press F to go Fullscreen)
+@fa[bookmark gp-tip](vgo)
 
-@fa[microphone gp-tip](Press S for Speaker Notes)
+[https://research.swtch.com/vgo](https://research.swtch.com/vgo)
 
 ---
 
