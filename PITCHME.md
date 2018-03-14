@@ -28,9 +28,15 @@
 
 ## vgo
 
+<br/>
+@fa[check] Defines Go Modules
 
-- @fa[star gp-tip](Defines Go Modules)
-- @fa[star gp-tip](Proposed Modification to "go" Tool)
+
+---
+## vgo
+
+<br/>
+@fa[check] Proposed Modification to "go" Tool
 
 
 ---
