@@ -45,7 +45,7 @@ Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 
 - The Import Compatibility Rule |
 - Minimal Version Selection |
-- Custom CSS Styling |
+- Semantic Import Versioning |
 - Slideshow Background Image |
 - Slide-specific Background Images |
 - Custom Logo, TOC, and Footnotes |
@@ -61,12 +61,12 @@ Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 ## Minimal Version Selection
 
 > Minimal version selection allows modules to specify only minimum requirements for their dependency modules.
+---
 
----?code=sample/go/server.go&lang=golang&title=Golang File
+## Semantic Import Versioning
 
-@[1,3-6](Present code found within any repo source file.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
+![Semantic Import Versioning ](/assets/image/impver.png)
+
 
 ---
 
