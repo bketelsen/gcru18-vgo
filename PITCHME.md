@@ -81,14 +81,12 @@ Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 
 ```
 package p // v1
-
 import v2 "p/v2"
 
 func EnableFoo() {
 	//go:fix
 	v2.SetFoo(true)
 }
-
 func DisableFoo() {
 	//go:fix
 	v2.SetFoo(false)
