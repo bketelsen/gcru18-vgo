@@ -29,8 +29,8 @@
 ## vgo
 
 
-@fa[star gp-tip](Defines Go Modules)
-@fa[star gp-tip](Proposed Modification to "go" Tool)
+- @fa[star gp-tip](Defines Go Modules)
+- @fa[star gp-tip](Proposed Modification to "go" Tool)
 
 
 ---
