@@ -26,10 +26,19 @@
 
 ---
 
+## vgo
+
+
+@fa[star gp-tip](Defines Go Modules)
+@fa[star gp-tip](Proposed Modification to "go" Tool)
+
+
+---
+
 ## vgo Assumptions
 
 - The Import Compatibility Rule |
-- Repo Source, Static Blocks, GIST |
+- Minimal Version Selection |
 - Custom CSS Styling |
 - Slideshow Background Image |
 - Slide-specific Background Images |
@@ -41,6 +50,11 @@
 
 > If an old package and a new package have the same import path, the new package must be backwards-compatible with the old package.
 
+---
+
+## Minimal Version Selection
+
+> Minimal version selection allows modules to specify only minimum requirements for their dependency modules.
 
 ---?code=sample/go/server.go&lang=golang&title=Golang File
 
