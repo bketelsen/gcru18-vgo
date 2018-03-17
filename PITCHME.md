@@ -15,7 +15,8 @@
 
 ## This Talk
 
-[https://talks.bjk.fyi/bketelsen/gcru18-vgo](https://talks.bjk.fyi/bketelsen/gcru18-vgo)
+[https://cda.ms/jD](https://cda.ms/jD)
+
 ---
 
 ## History of Building Go
@@ -199,11 +200,25 @@ github.com/gorilla/mux v1.6.0: dir has been modified (...)
 
 ---
 
+## How?
+
+### Change "go get" to make packages self-contained
+
+---
+
 ## Getting Started
 
 - Add VCS tags to your releases
 - Add go.mod file to your repository
 - There is no step three
+
+---
+
+
+## Example with Makefile
+
+[Captain Hook](https://github.com/bketelsen/captainhook)
+
 
 ---
 

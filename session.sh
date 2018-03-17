@@ -1,5 +1,5 @@
 #doitlive prompt: sorin
-go get -u golang.org/x/vgo
+#go get -u golang.org/x/vgo
 
 cd $GOPATH/src/github.com/bketelsen/captainhook
 rm go.mod
