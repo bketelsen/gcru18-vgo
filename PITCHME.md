@@ -3,6 +3,21 @@
 
 ---
 
+## About Me
+
+- Microsoft Azure - Cloud Developer Advocate
+- Using Go since 2010
+- Twitter: @bketelsen
+- Github: bketelsen
+- Email: bjk@microsoft.com
+
+---
+
+## This Talk
+
+[https://talks.bjk.fyi/bketelsen/gcru18-vgo](https://talks.bjk.fyi/bketelsen/gcru18-vgo)
+---
+
 ## History of Building Go
 
 - 2009 6g, 6l - Makefiles |
@@ -184,6 +199,14 @@ github.com/gorilla/mux v1.6.0: dir has been modified (...)
 
 ---
 
+## Getting Started
+
+- Add VCS tags to your releases
+- Add go.mod file to your repository
+- There is no step three
+
+---
+
 ## Proxy Server Support
 
 ```bash
@@ -207,34 +230,15 @@ $ GOPROXY=https://gomods.io vgo build
 
 
 
-## Template Help
-
-- [Code Presenting](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting)
-  + [Repo Source](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides), [Static Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides), [GIST](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides) 
-- [Custom CSS Styling](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Custom-CSS)
-- [Slideshow Background Image](https://github.com/gitpitch/gitpitch/wiki/Background-Setting)
-- [Slide-specific Background Images](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background)
-- [Custom Logo](https://github.com/gitpitch/gitpitch/wiki/Logo-Setting) [TOC](https://github.com/gitpitch/gitpitch/wiki/Table-of-Contents) [Footnotes](https://github.com/gitpitch/gitpitch/wiki/Footnote-Setting)
+## Proxy
 
 ---
 
-## Go GitPitch Pro!
+## Registry
 
-<br>
-<div class="left">
-    <i class="fa fa-user-secret fa-5x" aria-hidden="true"> </i><br>
-    <a href="https://gitpitch.com/pro-features" class="pro-link">
-    More details here.</a>
-</div>
-<div class="right">
-    <ul>
-        <li>Private Repos</li>
-        <li>Private URLs</li>
-        <li>Password-Protection</li>
-        <li>Image Opacity</li>
-        <li>SVG Image Support</li>
-    </ul>
-</div>
+---
+
+## Foundation
 
 ---
 
