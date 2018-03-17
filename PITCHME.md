@@ -9,6 +9,7 @@
 - Using Go since 2010
 - Twitter: @bketelsen
 - Github: bketelsen
+- Podcast: gotime.fm
 - Email: bjk@microsoft.com
 
 ---
