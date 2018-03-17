@@ -308,10 +308,25 @@ $ GOPROXY=https://gomods.io vgo build
 
 - Separate module from VCS
 - Insulate package from Github control
-- Many import paths available
-  - gomods.io/your/package
-  - 
 
+---
+
+## Hosted Registry 
+
+- libgo.io
+- gomods.io
+- gopherpacks.io
+- goreg.io
+- goprox.io
+- gomodul.es
+
+---
+
+## Hosted Registry
+
+[gopherpacks.io](https://gopherpacks.io) *
+
+*Coming Soon*
 ---
 
 ## Global Proxies
