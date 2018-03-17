@@ -95,7 +95,7 @@ Code [https://github.com/golang/vgo](https://github.com/golang/vgo)
 
 ## Graceful API Updates
 
----?color=white
+---
 
 @title[Graceful API Updates]
 
