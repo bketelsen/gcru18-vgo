@@ -307,6 +307,7 @@ $ GOPROXY=https://gomods.io vgo build
 ## Hosted Registry
 
 - Separate module from VCS
+- Insulate package from Github control
 - Many import paths available
   - gomods.io/your/package
   - 
