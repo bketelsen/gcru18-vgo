@@ -206,6 +206,18 @@ github.com/gorilla/mux v1.6.0: dir has been modified (...)
 
 ---
 
+## Change Build Sources
+
+### $GOPATH/src/v/$PACKAGE/@v
+
+---
+
+## Demo
+
+
+
+---
+
 ## Getting Started
 
 - Add VCS tags to your releases
@@ -247,13 +259,86 @@ $ GOPROXY=https://gomods.io vgo build
 
 ## Proxy
 
+- Athens! |
+- https://github.com/gomods/athens |
+- Open Source |
+- Created At Microsoft |
+- In cooperation with the Go team |
+
 ---
 
 ## Registry
 
+- Athens! |
+- https://github.com/gomods/athens |
+- Open Source |
+- Created At Microsoft |
+- In cooperation with the Go team |
+
 ---
 
+## Status
+
+@fa[check] Open Source Proxy Server
+@fa[check] Multiple Storage Options
+@fa[check] Well Defined Go Interface
+
+---
+
+## Coming Soon (tm)
+
+@fa[star] Globally Distributed Proxies
+@fa[star] Hosted Registry
+
+---
+
+## Hosted Registry
+
+- Combines Proxy with Vanity Domains
+- Automatically updates from VCS
+  - Push tag, registry updates
+- Adds extra metadata
+  - scorecards
+  - version history
+  - import counts
+
+---
+
+## Hosted Registry
+
+- Separate module from VCS
+- Many import paths available
+  - gomods.io/your/package
+  - 
+
+---
+
+## Global Proxies
+
+- Athens running on multiple clouds
+- Multiple Hosting Companies
+- In geographically varied regions
+- Synchronized content
+- Global reach, Fast Builds!!
+
+--- 
+
 ## Foundation
+
+- Long Term Plan for Athens |
+- Multiple Companies Participating |
+- Lets Athens live without SPOF |
+- Microsoft |
+- Google |
+- Yandex ? |
+
+---
+
+## Open Source
+
+- We @fa[heart] Contributions
+- https://github.com/gomods/athens
+- Lots of work left to do
 
 ---
 
@@ -265,6 +350,7 @@ $ GOPROXY=https://gomods.io vgo build
 
 @fa[github gp-contact](bketelsen)
 
+@fa[github gp-contact](gomods)
 
 
 ---?image=assets/image/gitpitch-audience.jpg&opacity=100
